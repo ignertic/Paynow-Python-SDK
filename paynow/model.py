@@ -251,7 +251,7 @@ class Paynow:
         self.integration_key = integration_key
         self.return_url = return_url
         self.result_url = result_url
-        self.VALID_PRE = {"ecocash" : ["077", "078"], "telecel" : ["073"], "netone" : ["071"]}
+        self.VALID_PRE = {"ecocash" : ["077", "078"], "telecash" : ["073"], "onewallet" : ["071"]}
 
     def set_result_url(self, url):
         """Sets the url where the status of the transaction will be sent when payment status is updated within Paynow
